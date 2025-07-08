@@ -15,7 +15,7 @@ const encouragements = [
   "Romans 12:5 – So in Christ we, though many, \nform one body, and each member belongs to all the others.",
   "1 Thessalonians 5:11 – Therefore encourage one another \nand build each other up, just as in fact you are doing.",
   "Galatians 6:2 – Carry each other’s burdens, \nand in this way you will fulfill the law of Christ.",
-  "Ecclesiastes 4:9–10 – Two are better than one, because they have a good return for their labor: \nIf either of them falls down, one can help the other up...",
+  "Ecclesiastes 4:9–10 – Two are better than one, \nbecause they have a good return for their labor: If either of them falls down, one can help the other up...",
 ];
 
 const RandomVerse: React.FC = () => {
@@ -29,7 +29,7 @@ const RandomVerse: React.FC = () => {
 
   return (
     <div className="p-4 rounded-xl mt-4 text-center">
-      <p className="main-ponnala mt-2 main-color whitespace-pre-line text-lg sm:text-xs leading-tight">
+      <p className="main-ponnala mt-2 main-color whitespace-pre-line sm:whitespace-normal text-lg sm:text-xs leading-tight">
         {verse}
       </p>
     </div>
@@ -79,7 +79,7 @@ const App: React.FC = () => {
           >
             YOU ARE INVITED!
           </h1>
-          <p className="text-white sm:text-xs main-color main-ponnala leading-4">
+          <p className="text-white sm:whitespace-normal sm:text-xs main-color main-ponnala leading-4">
             Don&apos;t miss our impactful Sunday service.
           </p>
           <p className="main-playfair font-semibold text-2xl main-color mt-[-9]">
