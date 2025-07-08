@@ -29,7 +29,7 @@ const RandomVerse: React.FC = () => {
 
   return (
     <div className="p-4 rounded-xl mt-4 text-center">
-      <p className="main-ponnala mt-2 main-color whitespace-pre-line text-lg sm:text-sm leading-tight">
+      <p className="main-ponnala mt-2 main-color whitespace-pre-line text-lg sm:text-xs leading-tight">
         {verse}
       </p>
     </div>
@@ -79,7 +79,7 @@ const App: React.FC = () => {
           >
             YOU ARE INVITED!
           </h1>
-          <p className="text-white sm:text-sm main-color main-ponnala leading-4">
+          <p className="text-white sm:text-xs main-color main-ponnala leading-4">
             Don&apos;t miss our impactful Sunday service.
           </p>
           <p className="main-playfair font-semibold text-2xl main-color mt-[-9]">
@@ -88,7 +88,7 @@ const App: React.FC = () => {
           {/* <p>
             <strong>Time:</strong> 10:00 AM
           </p> */}
-          <p className="main-color text-sm sm:text-sm">
+          <p className="main-color text-sm sm:text-xs">
             <strong>Location:</strong> Deeper Life Bible Church - Parma Branch
           </p>
         </div>
