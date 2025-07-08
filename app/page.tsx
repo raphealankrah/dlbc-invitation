@@ -10,6 +10,12 @@ const encouragements = [
   "Hebrews 10:25 - Not giving up meeting together,\nas some are in the habit of doing, but encouraging one another...",
   "Psalm 122:1 - I was glad when they said unto me,\nLet us go into the house of the Lord.",
   "Matthew 18:20 - For where two or three gather in my name,\nthere am I with them.",
+  "Acts 2:42 – They devoted themselves to the apostles’ teaching \nand to fellowship, to the breaking of bread and to prayer.",
+  "1 Corinthians 12:27 – Now you are the body of Christ, \nand each one of you is a part of it.",
+  "Romans 12:5 – So in Christ we, though many, \nform one body, and each member belongs to all the others.",
+  "1 Thessalonians 5:11 – Therefore encourage one another \nand build each other up, just as in fact you are doing.",
+  "Galatians 6:2 – Carry each other’s burdens, \nand in this way you will fulfill the law of Christ.",
+  "Ecclesiastes 4:9–10 – Two are better than one, because they have a good return for their labor: \nIf either of them falls down, one can help the other up..."
 ];
 
 const RandomVerse: React.FC = () => {
@@ -69,7 +75,7 @@ const App: React.FC = () => {
         <div className="text-center font-playfair">
           <h1
             className="text-2xl font-black main-playfair main-color tracking-tighter mb-3"
-            // style={{ fontWeight: "300" }}
+          // style={{ fontWeight: "300" }}
           >
             YOU ARE INVITED!
           </h1>
@@ -82,7 +88,7 @@ const App: React.FC = () => {
           {/* <p>
             <strong>Time:</strong> 10:00 AM
           </p> */}
-          <p className="main-color">
+          <p className="main-color text-sm">
             <strong>Location:</strong> Deeper Life Bible Church - Parma Branch
           </p>
         </div>
@@ -122,8 +128,16 @@ const App: React.FC = () => {
             >
               Get Directions
             </a>
-            <p className="text-xs mt-4 leading-3">
-              DEEPER LIFE BIBLE CHURCH - PARMA | CASALMAGGIORE | FIDENZA
+            {/* <div style={{ position: "relative", width: "100%", height: "50px" }} className="mb-7">
+            <Image
+              src="/dlbc.png"
+              alt="church-logo"
+              fill
+              className="object-contain mt-5"
+            />
+            </div> */}
+            <p className="text-xs main-color mt-4 leading-3">
+              <strong>DEEPER LIFE BIBLE CHURCH</strong> - PARMA | CASALMAGGIORE | FIDENZA
             </p>
           </div>
         </div>
