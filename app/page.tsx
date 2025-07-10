@@ -130,14 +130,14 @@ const App: React.FC = () => {
             >
               Get Directions
             </a>
-            {/* <div style={{ position: "relative", width: "100%", height: "50px" }} className="mb-7">
-            <Image
-              src="/dlbc.png"
-              alt="church-logo"
-              fill
-              className="object-contain mt-5"
-            />
-            </div> */}
+            <div style={{ position: "relative", width: "100%", height: "50px" }} className="mb-7">
+              <Image
+                src="/dlbc.png"
+                alt="church-logo"
+                fill
+                className="object-contain mt-5"
+              />
+            </div>
             <p className="text-xs main-color mt-4 leading-3">
               <strong>DEEPER LIFE BIBLE CHURCH</strong> - PARMA
             </p>
