@@ -41,7 +41,7 @@ const App: React.FC = () => {
     "https://www.google.com/maps/place//data=!4m2!3m1!1s0x4780158aeb084b07:0xe7162b4f59991e08?sa=X&ved=1t:8290&ictx=111";
 
   return (
-    <div className="font-sans p-8 bg-gray-100 min-h-screen flex items-center justify-center">
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
       {/* <audio ref={audioRef} loop>
         <source src="/music.mp3" type="audio/mpeg" />
         Your browser does not support the audio element.
@@ -51,19 +51,21 @@ const App: React.FC = () => {
         {/* <h1 className="text-center text-7xl font-extrabold mb-4 bg-church-gradient-alt text-gradient">
           INVITATION
         </h1> */}
-        <div style={{ position: "relative", width: "100%", height: "90px" }}>
+        <div className="flex justify-center">
           <Image
             src="/INVITATION.svg"
             alt="Invitation"
-            fill
+            width={384}
+            height={90}
             className="object-contain"
           />
         </div>
-        <div style={{ position: "relative", width: "100%", height: "400px" }}>
+        <div className="flex justify-center">
           <Image
             src="/Rectangle.svg"
             alt="Video Preview"
-            fill
+            width={384}
+            height={400}
             className="object-contain mt-5"
           />
         </div>
