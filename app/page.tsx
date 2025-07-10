@@ -7,15 +7,15 @@ import NextSundayDate from "./NextSundayDate";
 import Image from "next/image";
 
 const encouragements = [
-  "Hebrews 10:25 - Not giving up meeting together,\nas some are in the habit of doing, but encouraging one another...",
-  "Psalm 122:1 - I was glad when they said unto me,\nLet us go into the house of the Lord.",
-  "Matthew 18:20 - For where two or three gather in my name,\nthere am I with them.",
-  "Acts 2:42 – They devoted themselves to the apostles’ teaching \nand to fellowship, to the breaking of bread and to prayer.",
-  "1 Corinthians 12:27 – Now you are the body of Christ, \nand each one of you is a part of it.",
-  "Romans 12:5 – So in Christ we, though many, \nform one body, and each member belongs to all the others.",
-  "1 Thessalonians 5:11 – Therefore encourage one another \nand build each other up, just as in fact you are doing.",
-  "Galatians 6:2 – Carry each other’s burdens, \nand in this way you will fulfill the law of Christ.",
-  "Ecclesiastes 4:9–10 – Two are better than one, \nbecause they have a good return for their labor: If either of them falls down, one can help the other up...",
+  "Hebrews 10:25 - Not giving up meeting together, as some are in the habit of doing, but encouraging one another...",
+  "Psalm 122:1 - I was glad when they said unto me, Let us go into the house of the Lord.",
+  "Matthew 18:20 - For where two or three gather in my name, there am I with them.",
+  "Acts 2:42 – They devoted themselves to the apostles&apos; teaching and to fellowship, to the breaking of bread and to prayer.",
+  "1 Corinthians 12:27 – Now you are the body of Christ, and each one of you is a part of it.",
+  "Romans 12:5 – So in Christ we, though many, form one body, and each member belongs to all the others.",
+  "1 Thessalonians 5:11 – Therefore encourage one another and build each other up, just as in fact you are doing.",
+  "Galatians 6:2 – Carry each other&apos;s burdens, and in this way you will fulfill the law of Christ.",
+  "Ecclesiastes 4:9–10 – Two are better than one, because they have a good return for their labor: If either of them falls down, one can help the other up...",
 ];
 
 const RandomVerse: React.FC = () => {
@@ -84,7 +84,7 @@ const App: React.FC = () => {
           <p className="text-xs sm:whitespace-normal text-white main-ponnala leading-4 mb-1">
             Don&apos;t miss our impactful Sunday service.
           </p>
-          <p className="main-playfair font-bold text-2xl text-white mt-[-9]">
+          <p className="main-playfair font-bold text-2xl text-white mt-[-9] whitespace-nowrap">
             <NextSundayDate /> | 10:00AM
           </p>
           {/* <p>
@@ -139,8 +139,7 @@ const App: React.FC = () => {
             />
             </div> */}
             <p className="text-xs main-color mt-4 leading-3">
-              <strong>DEEPER LIFE BIBLE CHURCH</strong> - PARMA | CASALMAGGIORE
-              | FIDENZA
+              <strong>DEEPER LIFE BIBLE CHURCH</strong> - PARMA
             </p>
           </div>
         </div>
