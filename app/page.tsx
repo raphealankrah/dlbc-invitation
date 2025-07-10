@@ -29,7 +29,7 @@ const RandomVerse: React.FC = () => {
 
   return (
     <div className="p-4 rounded-xl mt-4 text-center">
-      <p className="main-ponnala mt-2 main-color whitespace-pre-line sm:whitespace-normal text-lg sm:text-xs leading-tight">
+      <p className="main-ponnala mt-2 main-color whitespace-pre-line sm:whitespace-normal text-xs sm:text-sm leading-tight">
         {verse}
       </p>
     </div>
@@ -76,23 +76,23 @@ const App: React.FC = () => {
 
         <div className="text-center font-playfair">
           <h1
-            className="text-2xl font-black main-playfair main-color tracking-tighter mb-3"
+            className="text-2xl font-black main-playfair main-color tracking-tighter mb-2"
           // style={{ fontWeight: "300" }}
           >
             YOU ARE INVITED!
           </h1>
-          <p className="text-xs sm:whitespace-normal text-white main-ponnala leading-4">
+          <p className="text-xs sm:whitespace-normal text-white main-ponnala leading-4 mb-1">
             Don&apos;t miss our impactful Sunday service.
           </p>
-          <p className="main-playfair font-semibold text-2xl main-color mt-[-9]">
+          <p className="main-playfair font-bold text-2xl text-white mt-[-9]">
             <NextSundayDate /> | 10:00AM
           </p>
           {/* <p>
             <strong>Time:</strong> 10:00 AM
           </p> */}
-          <p className="main-color text-sm sm:text-xs">
+          {/* <p className="main-color text-sm sm:text-xs mt-2">
             <strong>Location:</strong> Deeper Life Bible Church - Parma Branch
-          </p>
+          </p> */}
         </div>
         {/* <div className="mt-4 flex gap-4 justify-center">
           <a
