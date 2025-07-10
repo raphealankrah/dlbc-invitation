@@ -75,11 +75,11 @@ const App: React.FC = () => {
         <div className="text-center font-playfair">
           <h1
             className="text-2xl font-black main-playfair main-color tracking-tighter mb-3"
-            // style={{ fontWeight: "300" }}
+          // style={{ fontWeight: "300" }}
           >
             YOU ARE INVITED!
           </h1>
-          <p className="text-white sm:whitespace-normal sm:text-xs main-color main-ponnala leading-4">
+          <p className="text-xs sm:whitespace-normal text-white main-ponnala leading-4">
             Don&apos;t miss our impactful Sunday service.
           </p>
           <p className="main-playfair font-semibold text-2xl main-color mt-[-9]">
