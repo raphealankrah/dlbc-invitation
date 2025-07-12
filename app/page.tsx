@@ -61,12 +61,30 @@ const App: React.FC = () => {
           />
         </div>
         <div className="flex justify-center">
-          <Image
+          {/* <Image
             src="/Rectangle.svg"
             alt="Video Preview"
             width={384}
             height={400}
             className="object-contain mt-5"
+          /> */}
+
+          <video
+            src="/Invite.mp4"
+            autoPlay
+            loop
+            playsInline
+            width={384}
+            height={400}
+            muted
+            className="rounded-xl shadow-lg mt-5 w-[327px] h-[404px] object-cover border-0 outline-none"
+            style={{
+              border: 'none',
+              outline: 'none',
+              borderWidth: '0',
+              borderStyle: 'none',
+              borderColor: 'transparent'
+            }}
           />
         </div>
 
